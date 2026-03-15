@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>FinanceKu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<h2 class="logo">FinanceKu</h2>
+
+<ul class="menu">
+<li class="active">Home</li>
+<li>Wallet</li>
+<li>Transaksi</li>
+<li>Budget</li>
+<li>Plan</li>
+<li>Asset</li>
+<li>Utang</li>
+<li>Investasi</li>
+<li>Laporan</li>
+<li>AI Insight</li>
+</ul>
+
+</div>
+
+
+<!-- MAIN -->
+
+<div class="main">
+
+<h1>Dashboard</h1>
+
+<div class="cards">
+
+<div class="card income">
+<h4>Total Pemasukan</h4>
+<p id="income">Rp 0</p>
+</div>
+
+<div class="card expense">
+<h4>Total Pengeluaran</h4>
+<p id="expense">Rp 0</p>
+</div>
+
+<div class="card balance">
+<h4>Sisa Saldo</h4>
+<p id="balance">Rp 0</p>
+</div>
+
+<div class="card saving">
+<h4>Tabungan</h4>
+<p id="saving">Rp 0</p>
+</div>
+
+</div>
+
+
+<!-- PROGRESS -->
+
+<div class="progressBox">
+
+<h3>Progress Pengeluaran Bulan Ini</h3>
+
+<div class="progressItem">
+<label>Kebutuhan</label>
+<div class="bar">
+<div id="needBar"></div>
+</div>
+</div>
+
+<div class="progressItem">
+<label>Keinginan</label>
+<div class="bar">
+<div id="wantBar"></div>
+</div>
+</div>
+
+<div class="progressItem">
+<label>Tabungan</label>
+<div class="bar">
+<div id="saveBar"></div>
+</div>
+</div>
+
+</div>
+
+
+<!-- TRANSAKSI TERBARU -->
+
+<div class="recent">
+
+<h3>Transaksi Terbaru</h3>
+
+<ul id="recentList"></ul>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
